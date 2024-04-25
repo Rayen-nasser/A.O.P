@@ -16,7 +16,7 @@ public class Toutou {
 
     public static void main(String[] args) {
         try {
-            Toutou toutou1 = new Toutou("milou", 4);
+            Toutou toutou1 = new Toutou(null, 4);
             System.out.println("toutou 1 cree avec succes !");
         } catch (IllegalArgumentException e) {
             System.out.println("erreur lors de la creation de toutou 1 : " + e.getMessage());
